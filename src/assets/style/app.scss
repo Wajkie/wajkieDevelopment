@@ -4,4 +4,28 @@
     h1 {
         text-align: center;
     }
+    #result {
+        margin-top: 1rem;
+        .card-body{
+            border-radius: 1rem;
+            padding: 1rem;
+            border: 3px solid black;
+            box-shadow: 0.3rem 0.3rem 1.2rem 0.3rem black;
+            margin: 0 auto;
+            margin-top: 1rem;
+            width: 25vh;
+            text-align: center;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+        }
+    }
+    footer {
+        padding: 1rem;
+        text-align: center;
+    }
+}
+
+ul {
+    list-style: none;
 }
