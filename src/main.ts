@@ -64,7 +64,7 @@ const renderweatherApp = (newEl:HTMLDivElement, closeEl:HTMLButtonElement)=> {
 				return
 			}
 			requestweather(city);
-			formEl.reset;
+			formEl.reset();
 		})
 	}
 }
